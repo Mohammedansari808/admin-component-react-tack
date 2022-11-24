@@ -28,7 +28,7 @@ function DashBoardCards() {
       <div className="container">
         <Cards />
       </div>
-      <div style={{ display: "flex", justifyContent: "center", alignItems: 'center' }}>
+      <div style={{ display: "flex", justifyContent: "center", alignItems: 'center', flexWrap: "wrap" }}>
         <div className='chart-box'>
           <Chart />
         </div>
@@ -37,7 +37,7 @@ function DashBoardCards() {
         </div>
       </div>
 
-    </section>
+    </section >
   )
 }
 

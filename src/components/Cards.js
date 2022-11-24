@@ -31,7 +31,7 @@ const Cards = () => {
                 <div className="card-box-whole-section">
                     <div className="card-box-section-1">
                         <div className="card-box-heading">TASKS</div>
-                        <div style={{ display: "flex" }}>
+                        <div style={{ display: "flex", alignItems: "center" }}>
                             <div className="cardbox-monthly-earning">{taskPercentage}</div>
                             <div className="task-skill-set">
                                 <div className="task-level">
@@ -42,7 +42,7 @@ const Cards = () => {
 
                     </div>
 
-                    <div className="card-box-section-2"><i class="fa fa-usd fa-2x" aria-hidden="true"></i>
+                    <div className="card-box-section-2"><i class="fa fa-tasks fa-2x" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>

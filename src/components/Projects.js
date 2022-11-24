@@ -20,17 +20,18 @@ const Projects = () => {
                 <div className="col-lg-6">
                     <div className="project-whole-section">
                         <div className="illustration-heading">Projects</div>
-                        {listProjects.map((project) => (
+                        {listProjects.map((project, index) => (
                             <>
-                                <PerProject project={project} />
+                                <PerProject project={project} key={index} />
                             </>
                         ))}
                     </div>
                     <div className="button-whole-section">
                         {
-                            btnlist.map((btns) => (
+                            btnlist.map((btns, index) => (
                                 <>
-                                    <button className={btns.btnclass} >{btns.btnname}</button>
+
+                                    <button className={btns.btnclass} key={index}>{btns.btnname}</button>
                                 </>
                             ))
                         }
